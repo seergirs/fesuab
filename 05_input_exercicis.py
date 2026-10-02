@@ -15,6 +15,9 @@ print(tecnic, "està instal·lant la xarxa" , xarxa)
 # en Gbps. Mostra quants segons caldrien per transmetre 1 GB de dades.
 # Suposa que 1 GB = 8 Gb i que la velocitat es manté constant.
 longitudfibra=float(input("Introdueix la longitud de la fibra en km:  "))
+velocitatgbps=float(input("Introdueix la velocitat de transmissió en Gbps:  "))
+tempssegons= (8/velocitatgbps)
+print("Temps necessari per transmetre 1 GB de dades: ", tempssegons, "segons")
 
 # Exercici 3
 # Demana el nombre d'hores de feina i el preu per hora d'una instal·lació de xarxa.
